@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import CourierInfo from './Components/CourierInfo/index';
+import TrackInfo from './Components/TrackInfo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="xl:w-[40%] w-[80%] m-auto mt-8">
+      <CourierInfo/>
+      <TrackInfo/>
     </div>
   );
 }
